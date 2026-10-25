@@ -1,19 +1,49 @@
-# React + Vite
+# Photo Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive photo gallery built with React, Vite, and Tailwind CSS. It fetches photos from the Lorem Picsum API and supports infinite scrolling and individual photo likes.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[View Photo Gallery](https://photo-gallery-iota-ecru.vercel.app/)
 
-## React Compiler
+## Features
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- Fetch photos from the Lorem Picsum API.
+- Infinite scrolling with pagination.
+- Display photo authors and images.
+- Like photos with independent counters.
+- Loading and error handling.
+- Responsive, single-column layout.
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- Tailwind CSS
+- Lorem Picsum API
+- Font Awesome
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Run Locally
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+cd YOUR_PROJECT_FOLDER
+npm install
+npm run dev
+```
+
+Open the local URL provided by Vite in your browser.
+
+## Build
+
+```bash
+npm run build
+```
+
+## API
+
+[Lorem Picsum API](https://picsum.photos/v2/list)
+
+---
+
+Developed as part of the ExactSpace Technologies Front End / UI Developer Internship assignment.
